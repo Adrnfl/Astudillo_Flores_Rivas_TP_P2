@@ -13,7 +13,7 @@ namespace SistemaGimnasio.Gestores
 
         public void RegistrarUsuario(string nombre, int edad, string objetivo) 
         {
-            usuarios.Add(new Usuario(nombre, edad, objetivo)));
+            usuarios.Add(new Usuario(nombre, edad, objetivo));
         }
 
         public Usuario BuscarUsuario(string nombre)
